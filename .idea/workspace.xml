@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d48467b-aba3-43b6-adab-45d9ddb52798" name="Default Changelist" comment="" />
+    <list default="true" id="1d48467b-aba3-43b6-adab-45d9ddb52798" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-security/src/main/java/com/example/springbootsecurity/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-security/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/qiaoyn/study/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/qiaoyn/study/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/qiaoyn/study/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/qiaoyn/study/Test4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/qiaoyn/study/HelloWorld.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -21,7 +58,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="E:\maven\repository" />
-        <option name="mavenHome" value="E:/maven/apache-maven-3.6.1" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -31,14 +68,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\springboot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\study\springboot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootSecurityApplication">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qiaoyn.study.HelloWorld" />
       <module name="springboot" />
@@ -52,23 +104,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootsecurity.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,24 +128,64 @@
       <option name="presentableId" value="Default" />
       <updated>1602222085274</updated>
       <workItem from="1602222086983" duration="657000" />
+      <workItem from="1627290010808" duration="3023000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1602222388255">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="391" y="106" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1627291410680">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602222388255" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1602222392434">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="391" y="106" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1627291410680" />
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1627293037488">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602222392434" />
-    <state x="28" y="37" key="new project wizard" timestamp="1602222227791">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627293037488" />
+    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1627293037488">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="28" y="37" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1602222227791" />
+    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627293037488" />
+    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1627293037488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627293037488" />
+    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1627293037488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627293037488" />
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1627293037488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627293037488" />
+    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1627293037488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1627293037488" />
+    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1627293037488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1627293037488" />
+    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1627293037488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1627293037488" />
+    <state x="178" y="73" key="new project wizard" timestamp="1627290929040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1627290929040" />
   </component>
 </project>
